@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 EditText ETNombre =(EditText) findViewById(R.id.ETNombreFoto);
-                String STNombre = ETNombre.getText().toString();
+
                 Intent sIntent = new Intent(MainActivity.this, Inicio.class);
-                sIntent.putExtra("STNombre", STNombre);
+                String Nombre = ETNombre.getText().toString();
+                sIntent.putExtra("STNombre", Nombre);
                 startActivity(sIntent);
             }
         });

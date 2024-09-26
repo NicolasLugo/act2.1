@@ -19,7 +19,7 @@
     <EditText
         android:id="@+id/ETNombreFoto"
         android:layout_width="253dp"
-        android:layout_height="42dp"
+        android:layout_height="58dp"
         android:autofillHints="Pepa3D"
         android:hint="Nombre de la foto:"
         android:inputType="text"
